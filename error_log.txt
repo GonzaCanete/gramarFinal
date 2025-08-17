@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Gramar/gramar.py", line 27, in main
+    app = GestionClientes(root)
+  File "/Users/user/Desktop/Gramar/gramar.py", line 82, in __init__
+    self.crear_gui()
+    ~~~~~~~~~~~~~~^^
+  File "/Users/user/Desktop/Gramar/gramar.py", line 108, in crear_gui
+    image_path = resource_path("icons/logoGramar.png")
+                 ^^^^^^^^^^^^^
+NameError: name 'resource_path' is not defined
